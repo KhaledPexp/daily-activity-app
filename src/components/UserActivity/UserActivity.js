@@ -8,7 +8,7 @@ const UserActivity = (props) => {
     return (
         <div className='all-activities'>
           
-                {activities.map (activity => <SingleActivity activity ={activity} ></SingleActivity>)}
+                {activities.map (activity => <SingleActivity activity ={activity} exerciseTime = {props.exerciseTime} key={activity.id} ></SingleActivity>)}
             
         </div>
     );
