@@ -1,0 +1,90 @@
+.user{
+    width: 320px;
+    background-color: white;
+    padding: 60px 20px;
+
+}
+.user-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.user img {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+}
+.user-na{
+    padding-left: 30px;
+}
+.user-wha{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f4fa;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    line-height: 0.8;
+}
+.user-wha h4{
+    color: rgb(142, 140, 140);
+}
+.add-break{
+    margin-top: 60px;
+}
+.break-selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color:#f1f4fa;
+}
+.break-time{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    color: black;
+    font-weight:600;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.break-time:hover{
+    color: white;
+    background-color: #59b6f0;
+}
+.exercise-details{
+    margin-top: 60px;
+}
+.exercise{
+    background-color: #f1f4fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.exercise p{
+    color: grey;
+}
+.break{
+    margin-top: 20px;
+    background-color: #f1f4fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.break p{
+    color: gray;
+}
+.complete-btn{
+    margin-top: 60px;
+}
+.complete-btn button{
+    height:50px ;
+}

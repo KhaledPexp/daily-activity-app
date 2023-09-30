@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    margin-top: 60px;
+    line-height: 0.5;
+}
+.header img{
+    width: 80px;
+    height: 100px;
+}
+.header h1{
+    color: #d8772e;
+    
+}
