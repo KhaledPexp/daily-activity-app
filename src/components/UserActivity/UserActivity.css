@@ -5,3 +5,19 @@
     margin-top: 100px;
     gap: 20px;
 }
+@media screen and (max-width: 720px) {
+    .all-activities{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1350px){
+
+    .all-activities{
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import "./UserInfo.css"
 import { toast } from 'react-toastify';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+
 const UserInfo = (props) => {
     const breakTimeFunction = props.breakTimeFunction;
     const exerciseTime = props.exerciseTime;
@@ -15,7 +18,7 @@ const UserInfo = (props) => {
                 <img src="images/ben-weber.jpg" alt="" />
                 <div className='user-na'>
                     <h3>Ben Weber</h3>
-                    <p>Berlinerstraße, Leipzig<br /> 04105 Germany.</p>
+                    <p> <FontAwesomeIcon icon={faLocationDot} /> Berlinerstraße<br />Leipzig, Germany.</p>
                 </div>
             </div>
             <div className='user-wha'>
